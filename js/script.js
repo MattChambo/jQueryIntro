@@ -10,5 +10,8 @@ $(document).ready(function(){
 		$('.top').toggleClass('transparent');
 	});
 
+	$('#scrollUp').click(function(){
+		$('html, body').animate({scrollTop: 0}, 'slow');
+	});
 
 });

@@ -16,3 +16,9 @@ img {
 .transparent {
 	opacity: 0;
 }
+
+button {
+	background-color: red;
+	padding: 20px;
+	margin-top: 1000px; 
+}
