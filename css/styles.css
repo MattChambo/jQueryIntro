@@ -1,0 +1,18 @@
+p {
+	color: green;
+}
+
+#container {
+	position: relative;
+	margin-left: 300px;
+}
+
+img {
+	position: absolute;
+	-moz-transition:opacity 1s ease-in-out;
+	transition:opacity 1s ease-in-out;
+}
+
+.transparent {
+	opacity: 0;
+}
