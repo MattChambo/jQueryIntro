@@ -1,5 +1,5 @@
 p {
-	color: green;
+	color: black;
 }
 
 #container {
@@ -21,4 +21,59 @@ button {
 	background-color: red;
 	padding: 20px;
 	margin-top: 1000px; 
+}
+
+#accordian {
+	width: 70%;
+	margin: 0 auto;
+	background-color: #cce6ff;
+	font-family: arial;
+}
+
+#accordian h1 {
+	color: white;
+	background-color: gray;
+	padding-left: 10px;
+}
+
+#accordian p {
+	color: black;
+	padding: 10px;
+	display: none; 
+}
+
+#accordian h2 {
+	background-color: #333333;
+	color: white;
+	padding: 5px;
+}
+
+#login-box {
+	
+	display: none;
+}
+
+#box {
+	margin: 0 auto;
+	width: 70%;
+}
+
+#login a {
+	padding: 5px;
+	margin-bottom: 5px;
+	}
+
+form input {
+	padding: 5px;
+	margin: 5px;
+	
+}
+
+form {
+	background-color: #cce6ff;
+	width: 25%;
+	position: relative;
+}
+
+#close {
 }
